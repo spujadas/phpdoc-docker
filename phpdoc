@@ -1,0 +1,4 @@
+#!/bin/bash
+
+## use this script to test the Docker image built using docker-compose.yml
+docker run --rm -t -v $PWD:/data -u `id -u` sebp/phpdoc "$@"

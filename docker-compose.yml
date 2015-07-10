@@ -1,0 +1,10 @@
+## docker-compose.yml for sebp/phpdoc
+
+# build image locally with:
+# $ sudo docker-compose build
+
+# test locally built image with:
+# $ ./phpdoc.local-build <arguments>
+
+phpdoc:
+    build: .
